@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="7/9/2018 2:10:01 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DAVIDM"
+  DTS:CreatorName="DOM01\davidm"
+  DTS:DTSID="{006CD9DB-F115-4BAB-8CB5-459C9445C2DA}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="13.0.4001.0"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="04 Add new records to masterfile"
+  DTS:PackageType="5"
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{16A2BD0C-DB58-49B6-871B-F91F020D0F1D}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <AnnotationLayout
+          Text="Run SSMS query 03 Add 2 be fixed to masterfile"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="282.4,40"
+          Id="bd9ced2d-4e4e-42d4-82f2-5cca709bac41"
+          TopLeft="36.5714291942363,39.7647064400379" />
+        <AnnotationLayout
+          Text="David - Verify dbDateAdded field is auto populating next time this is run!"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="414.4,60"
+          Id="318a6ac5-4da7-4eee-9ff5-52de3befc13e"
+          TopLeft="29.714286220317,96.6588248850153" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
