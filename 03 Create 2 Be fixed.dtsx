@@ -7,12 +7,13 @@
   DTS:CreatorName="DOM01\davidm"
   DTS:DTSID="{3A4ADFD5-3DA0-40B6-AD64-5EEA5032801E}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.4001.0"
+  DTS:LastModifiedProductVersion="15.0.1100.123"
   DTS:LocaleID="1033"
   DTS:ObjectName="03 Create 2 Be fixed"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{C3C6620C-966B-40DD-A304-0AAF0197A4C9}">
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{9EAF5337-599A-4737-9802-D3EBB6AAA182}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -28,14 +29,29 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
         <AnnotationLayout
-          Text="Run SSMS query 02 Masterfile records 2 be fixed"
+          Text="Run SSMS query 03 Masterfile records 2 be fixed"
           ParentId="Package"
-          FontInfo="{assembly:Null}"
+          FontInfo="{x:Null}"
           Size="285.6,40"
           Id="c599dcb4-6c92-480e-8389-ec2edb026830"
           TopLeft="37.7142863565562,35.482353438803" />
+        <AnnotationLayout
+          Text="Use SSMS to run this query."
+          ParentId="Package"
+          Size="164.8,37.6"
+          Id="9c5a6133-d770-408a-a8ed-9631452316a2"
+          TopLeft="63.3333308166929,79.0400006281535">
+          <AnnotationLayout.FontInfo>
+            <mssge:FontInfo
+              Color="#FF000000">
+              <mssge:FontInfo.TextDecorations>
+                <av:TextDecorationCollection />
+              </mssge:FontInfo.TextDecorations>
+            </mssge:FontInfo>
+          </AnnotationLayout.FontInfo>
+        </AnnotationLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>

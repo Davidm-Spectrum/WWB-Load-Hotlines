@@ -7,14 +7,27 @@
   DTS:CreatorName="DOM01\davidm"
   DTS:DTSID="{63AE0CB4-5CA1-4B88-A3A6-CA678E852F8E}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.4001.0"
+  DTS:LastModifiedProductVersion="15.0.1100.123"
   DTS:LocaleID="1033"
   DTS:ObjectName="02 Create Customer File"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{A4AF03B3-8825-4420-8EFA-265063936CDD}">
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{50CC2DB9-31FB-43E1-94D7-24B392E80093}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[hp1.WWB]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{09D91257-0001-4A3E-9052-F097693B8146}"
+      DTS:ObjectName="hp1.WWB">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=hp1;Initial Catalog=WWB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables />
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
@@ -28,14 +41,29 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
         <AnnotationLayout
-          Text="Run SSMS query 01 Create Customer File"
+          Text="Run SSMS query 02 Create Customer File"
           ParentId="Package"
           FontInfo="{assembly:Null}"
           Size="245.6,40"
           Id="ad3dda86-c8cc-410c-816d-8be13acbdfa3"
           TopLeft="41.7142864246758,26.3058827218712" />
+        <AnnotationLayout
+          Text="USE SSMS to run this task"
+          ParentId="Package"
+          Size="155.2,37.6"
+          Id="f6072512-c4c4-4a37-9f68-ee5d0f0b62e5"
+          TopLeft="33.9999986489615,47.1466670413547">
+          <AnnotationLayout.FontInfo>
+            <mssge:FontInfo
+              Color="#FF000000">
+              <mssge:FontInfo.TextDecorations>
+                <av:TextDecorationCollection />
+              </mssge:FontInfo.TextDecorations>
+            </mssge:FontInfo>
+          </AnnotationLayout.FontInfo>
+        </AnnotationLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>

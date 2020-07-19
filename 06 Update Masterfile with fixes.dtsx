@@ -5,14 +5,15 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DAVIDM"
   DTS:CreatorName="DOM01\davidm"
-  DTS:DTSID="{8AB830DC-0B45-49BF-9F48-5540E34033DA}"
+  DTS:DTSID="{036DC8BF-C5CA-40A2-9873-28D5F22E5A24}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.4001.0"
+  DTS:LastModifiedProductVersion="15.0.1100.123"
   DTS:LocaleID="1033"
   DTS:ObjectName="06 Update Masterfile with fixes"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{972F213D-F45C-4001-99DC-9A0E86E52377}">
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{5A14BFD3-912C-49A7-878C-63F313873B0D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -28,14 +29,29 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
         <AnnotationLayout
-          Text="Run SSMS query 04 Update Masterfile with fixes"
+          Text="Run SSMS query 06 Update Masterfile with fixes"
           ParentId="Package"
-          FontInfo="{assembly:Null}"
+          FontInfo="{x:Null}"
           Size="282.4,40"
           Id="ca986bb2-0560-488c-99a6-e18affd6f723"
           TopLeft="36.0000006130763,38.5411770111136" />
+        <AnnotationLayout
+          Text="Use SSMS to run this query"
+          ParentId="Package"
+          Size="161.6,37.6"
+          Id="5a3861f9-697a-42c6-96d8-0f5a32e5b1a5"
+          TopLeft="97.99999610583,80.4266673058404">
+          <AnnotationLayout.FontInfo>
+            <mssge:FontInfo
+              Color="#FF000000">
+              <mssge:FontInfo.TextDecorations>
+                <av:TextDecorationCollection />
+              </mssge:FontInfo.TextDecorations>
+            </mssge:FontInfo>
+          </AnnotationLayout.FontInfo>
+        </AnnotationLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
